@@ -14,7 +14,7 @@ if: $ftd.device == mobile
 
 -- ftd.column:
 width: fill
-padding-horizontal: 50
+padding-horizontal: 20
 padding-vertical: 20
 padding-horizontal if $is-mobile: 20
 background-color: $fpm.color.main.background.base
@@ -43,7 +43,52 @@ lang: ftd
 
 \-- import: night-moon
 
+-- color-display:
+color: $fpm.color
+minimize: true
 
+
+
+
+
+
+-- ftd.row color-display:
+fpm.color-data color:
+optional boolean minimize:
+width: fill
+
+--- all-color-display:
+color: $color
+minimize: $minimize
+
+
+
+
+
+
+
+
+
+-- ftd.column all-color-display:
+fpm.color-data color:
+optional boolean minimize: 
+background-color: $color.main.background.base
+width: fill
+
+--- ftd.row:
+width: fill
+
+--- cu.color-ui:
+color: $color
+minimize: $minimize
+
+--- container: ftd.main
+
+--- ftd.row:
+width: fill
+
+--- cd.color-display-data:
+color: $color
 
 
 
@@ -61,8 +106,8 @@ light: #006088
 dark: #006088
 
 -- ftd.color step-2-:
-light: #008C9B
-dark: #008C9B
+light: #4A6490
+dark: #4A6490
 
 -- ftd.background-colors background-:
 base: $base-
@@ -409,10 +454,3 @@ surface: $main
 surface-alt: $main
 glass: $main
 
-
-
--- cu.color-ui:
-color: $fpm.color
-
--- cd.color-display:
-color: $fpm.color
