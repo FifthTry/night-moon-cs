@@ -23,7 +23,7 @@ background-color: $fpm.color.main.background.base
 -- pd.package: Night-moon CS
 name: fifthtry.github.io/night-moon-cs
 
-Night-moon-cs  is a color schemes which can be used to change color scheme of web 
+Night-moon-cs  is a color scheme which can be used to change color scheme of web 
 packages via using `FTD` lang.
 
 To use `night-moon-cs` color scheme on your web package, add below into `FPM.ftd` file:
