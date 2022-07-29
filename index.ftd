@@ -20,18 +20,18 @@ padding-horizontal if $is-mobile: 20
 background-color: $fpm.color.main.background.base
 
 
--- pd.package: Night-moon 
-name: fifthtry.github.io/night-moon
+-- pd.package: Night-moon CS
+name: fifthtry.github.io/night-moon-cs
 
-Night-moon  is a color schemes which can be used to change color scheme of web 
+Night-moon-cs  is a color schemes which can be used to change color scheme of web 
 packages via using `FTD` lang.
 
-To use `night-moon` color scheme on your web package, add below into `FPM.ftd` file:
+To use `night-moon-cs` color scheme on your web package, add below into `FPM.ftd` file:
 
 -- cb.code:
 lang: ftd
 
-\-- fpm.dependency: fifthtry.github.io/night-moon as night-moon
+\-- fpm.dependency: fifthtry.github.io/night-moon-cs as night-moon
 
 
 -- tf.markdown:
