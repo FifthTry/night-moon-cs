@@ -2,7 +2,7 @@
 
 -- fpm.package: fifthtry.github.io/night-moon
 zip: github.com/fifthtry/night-moon/archive/refs/heads/main.zip
-base: https://raw.githubusercontent.com/fifthtry/night-moon/main
+download-base-url: https://raw.githubusercontent.com/fifthtry/night-moon/main
 
 -- fpm.dependency: fifthtry.github.io/color-doc as cd
 -- fpm.dependency: fifthtry.github.io/package-doc as pd
