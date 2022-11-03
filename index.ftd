@@ -110,8 +110,8 @@ light: #4A6490
 dark: #4A6490
 
 -- ftd.color overlay-:
-light: rgba(0, 0, 0, 0.8)
-dark: rgba(0, 0, 0, 0.8)
+light: rgba(20, 54, 93, 0.6)
+dark: rgba(20, 54, 93, 0.6)
 
 -- ftd.color code-:
 light: #2B303B
@@ -121,6 +121,8 @@ dark: #2B303B
 base: $base-
 step-1: $step-1-
 step-2: $step-2-
+overlay: $overlay-
+code: $code-
 
 -- ftd.color border-:
 light: #434547
