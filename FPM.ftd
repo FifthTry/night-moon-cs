@@ -1,8 +1,8 @@
 -- import: fpm
 
--- fpm.package: fifthtry.github.io/night-moon
-zip: github.com/fifthtry/night-moon/archive/refs/heads/main.zip
-base: https://raw.githubusercontent.com/fifthtry/night-moon/main
+-- fpm.package: fifthtry.github.io/night-moon-cs
+zip: github.com/fifthtry/night-moon-cs/archive/refs/heads/main.zip
+download-base-url: https://raw.githubusercontent.com/fifthtry/night-moon-cs/main
 
 -- fpm.dependency: fifthtry.github.io/color-doc as cd
 -- fpm.dependency: fifthtry.github.io/package-doc as pd
@@ -12,6 +12,6 @@ base: https://raw.githubusercontent.com/fifthtry/night-moon/main
 -- fpm.auto-import: pd/typography as tf
 -- fpm.auto-import: pd/code-block as cb
 -- fpm.auto-import: pd/forest-theme as ft
--- fpm.auto-import: fifthtry.github.io/night-moon/FPM/config
+-- fpm.auto-import: fifthtry.github.io/night-moon-cs/FPM/config
 
 
